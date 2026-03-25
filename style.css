@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(162, 216, 130);
+    margin: 0px;
+    padding: 0px;
+}
+.cabeca{
+    background-color: rgb(182, 220, 226);
+    width: 1920px;
+    height: 80px;
+    margin-top: 0px;
+}
+
+.titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: brown;
+}
+.cabeca_2{
+    background-color: rgb(194, 247, 255);
+    width: 1920px;
+    height: 150px;
+    margin-top: 0px;
+    background:url(Assets/banner-closeup-three-hide-dogs-600nw-1990878914.webp);
+}
+
+.bloco_de_informacoes{
+    background-color: rgb(239, 225, 207);
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 20px;
+}
