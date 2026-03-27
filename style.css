@@ -33,3 +33,28 @@ body{
     margin-top: 40px;
     border-radius: 20px;
 }
+
+#cadastro{
+    font-family:fantasy;
+    position: relative;
+    align-items:center ;
+    left: 360px;
+    top: 10px;
+    font-size: 50px;
+    
+}
+
+form {
+   margin: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;align-self: ;
+   font-size: 50px;
+   display: block;
+}
+
+input{
+    padding: 20px;
+    width: 900px;
+    border-radius: 20px;
+    
+
+}
