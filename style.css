@@ -46,7 +46,7 @@ body{
 
 form {
    margin: 50px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;align-self: ;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;align-self:;
    font-size: 50px;
    display: block;
 }
@@ -55,4 +55,12 @@ input{
     padding: 20px;
     width: 900px;
     border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px ;
+}
+
+.opcao{
+     width: 40px;
+    height: 40px;
+    
 }
