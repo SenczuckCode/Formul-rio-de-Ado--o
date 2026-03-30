@@ -20,7 +20,7 @@
             <form action="" id="formulario">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" placeholder="Nome">
-                <div id="erroNome" class="erro"></div>
+         
 
                 <label for="email">Email:</label>
                 <input type="text" id="email" placeholder="Email">
@@ -32,6 +32,10 @@
 
                 <label for="cpf">CPF:</label>
                 <input type="text" id="cpf" placeholder="CPF">
+                <div id="erroCpf" class="erro"></div>
+
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" placeholder="Idade">
                 <div id="erroCpf" class="erro"></div>
 
                 <label for="cidade">Cidade:</label>
@@ -48,7 +52,7 @@
                 <label for="predio">Prédio:</label>
                 <input type="radio" class="opcao" name="tipo_moradia" value="predio">
 
-                <br>
+                <br> <br>
 
 
                  <label for="quintal">Possui quintal:</label>
@@ -58,22 +62,27 @@
                 <label for="n">Não:</label>
                 <input type="radio" class="opcao" name="tipo_quintal" value="predio">
 
-                 <br>
+                 <br> <br>
 
 
                  <label for="pet">Já teve pet?:</label>
                  <br>
                 <label for="pet">Sim:</label>
                 <input type="radio" class="opcao" name="tipo_pet"  value="casa">
-                <label for="n">pet:</label>
+                <label for="n">Não:</label>
                 <input type="radio" class="opcao" name="tipo_pet" value="predio">
 
-                <br>
+                <br> <br>
 
                  <label for="horas">Quantas horas fica fora de casa?:</label>
                 <input type="text" id="horas" placeholder="tempo">
                 <div id="erroTempo" class="erro"></div>
-
+                <br><br>
+                <label for="termos">Você aceita os termos?:</label>
+                <input type="radio" class="opcao" name="tipo_termo" value="termo">
+                <br><br>
+                
+                <button id="button" type="submit">ADOTAR</button>
                 <form>
 
 
