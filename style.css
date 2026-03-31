@@ -27,7 +27,7 @@ body{
 .bloco_de_informacoes{
     background-color: rgb(239, 225, 207);
     width: 1000px;
-    height: 5000px;
+    height: 3200px;
     margin: auto;
     position: relative;
     margin-top: 40px;
@@ -64,6 +64,10 @@ input{
     height: 40px;
     
 }
+#termos{
+     width: 40px;
+    height: 40px;
+}
 
 #button{
     width: 300px;
@@ -71,4 +75,12 @@ input{
     border-radius: 30px;
     position: relative;
     left: 250px;
+}
+
+#motivo{
+     padding: 20px;
+    width: 900px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px ;
 }

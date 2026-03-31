@@ -26,7 +26,7 @@
                 <input type="text" id="email" placeholder="Email">
                 <div id="erroEmail" class="erro"></div>
 
-                <label for="telefone">Telefone:</label>
+                <label for="phone">Telefone:</label>
                 <input type="text" id="phone" placeholder="Telefone">
                 <div id="erroTelefone" class="erro"></div>
 
@@ -36,12 +36,31 @@
 
                 <label for="idade">Idade:</label>
                 <input type="text" id="idade" placeholder="Idade">
-                <div id="erroCpf" class="erro"></div>
+                <div id="erroIdade" class="erro"></div>
 
                 <label for="cidade">Cidade:</label>
                 <input type="text" id="cidade" placeholder="Cidade">
                 <div id="erroCidade" class="erro"></div>
-
+                <br>
+                <label for="motivo">Motivo da adoção:</label>
+                <br>
+                <textarea id="motivo"></textarea>
+                <br><br>
+                <label for="permite">Se mora em prédio, permite animais?</label>
+                <input type="checkbox" class="opcao"  id="permite">
+                <br><br>
+                <label for="seguro">Se mora em casa, o quintal é seguro?</label>
+                <input type="checkbox" class="opcao"  id="seguro"> 
+                <br><br>
+                <label for="financeiro">Tem condições financeiras?</label>
+                <input type="checkbox" class="opcao"  id="financeiro">
+                <br><br>
+                <label for="espacoExterno">Usa espaço externo?</label>
+                <input type="checkbox" class="opcao"  id="espacoExterno">
+                <br><br>
+                <label for="impulso">Decidiu adotar hoje?</label>
+                <input type="checkbox" class="opcao" id="impulso">
+                <br><br>
 
                 <label for="moradia">Moradia:</label>
 
@@ -50,7 +69,7 @@
                 <input type="radio" class="opcao" name="tipo_moradia"  value="casa">
                 
                 <label for="predio">Prédio:</label>
-                <input type="radio" class="opcao" name="tipo_moradia" value="predio">
+                <input type="radio" class="opcao" name="tipo_moradia" value="apartamento">
 
                 <br> <br>
 
@@ -58,9 +77,9 @@
                  <label for="quintal">Possui quintal:</label>
                  <br>
                 <label for="s">Sim:</label>
-                <input type="radio" class="opcao" name="tipo_quintal"  value="casa">
+                <input type="radio" class="opcao" name="tipo_quintal"  value="sim">
                 <label for="n">Não:</label>
-                <input type="radio" class="opcao" name="tipo_quintal" value="predio">
+                <input type="radio" class="opcao" name="tipo_quintal" value="nao">
 
                  <br> <br>
 
@@ -68,9 +87,9 @@
                  <label for="pet">Já teve pet?:</label>
                  <br>
                 <label for="pet">Sim:</label>
-                <input type="radio" class="opcao" name="tipo_pet"  value="casa">
+                <input type="radio" class="opcao" name="tipo_pet"  value="sim">
                 <label for="n">Não:</label>
-                <input type="radio" class="opcao" name="tipo_pet" value="predio">
+                <input type="radio" class="opcao" name="tipo_pet" value="nao">
 
                 <br> <br>
 
@@ -78,13 +97,12 @@
                 <input type="text" id="horas" placeholder="tempo">
                 <div id="erroTempo" class="erro"></div>
                 <br><br>
-                <label for="termos">Você aceita os termos?:</label>
-                <input type="radio" class="opcao" name="tipo_termo" value="termo">
+                <label for="termos">Você aceita os termos?</label>
+                <input type="checkbox" id="termos">
                 <br><br>
-                
                 <button id="button" type="submit">ADOTAR</button>
-                <form>
-
+                </form>
+                <div id="resultado"></div>
 
         </div>
 
